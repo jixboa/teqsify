@@ -61,7 +61,7 @@ const HeaderOne = () => {
                       </a>
                     </li>
                     <li>
-                      <div className="tp-header-lang-wrapper d-flex align-items-center">
+                      {/* <div className="tp-header-lang-wrapper d-flex align-items-center">
                         <div className="tp-header-lang-img">
                           <Image src={LangLogo} alt="theme-pure" />
                         </div>
@@ -82,7 +82,7 @@ const HeaderOne = () => {
                             <li>Canada</li>
                           </ul>
                         </div>
-                      </div>
+                      </div> */}
                     </li>
                   </ul>
                 </div>
