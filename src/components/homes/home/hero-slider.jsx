@@ -33,7 +33,7 @@ const setting = {
 const slider_data = [
   {
     id: 1,
-    bg_img: "/assets/img/hero/hero-12.jpg",
+    bg_img: "/assets/img/hero/hero-2_.jpg",
     sub_title_1: "best",
     sub_title_2: "it solutions",
     hero_title_1: "Inspiring Inovations,",
@@ -51,7 +51,7 @@ const slider_data = [
   },
   {
     id: 3,
-    bg_img: "/assets/img/hero/hero-12.jpg",
+    bg_img: "/assets/img/hero/hero-3_.jpg",
     sub_title_1: "best",
     sub_title_2: "it solutions",
     hero_title_1: "Inspiring Inovations,",
