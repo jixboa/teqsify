@@ -101,8 +101,7 @@ const ServiceArea = () => {
               <div className="col-lg-12">
                 <div className="tp-service-title-wrapper text-center">
                   <span className="tp-section-title__pre">
-                    service{" "}
-                    <span className="title-pre-color">IT Solutions</span>
+                    Our <span className="title-pre-color">Services</span>
                     <AngleArrow />
                   </span>
                   <h3 className="tp-section-title">

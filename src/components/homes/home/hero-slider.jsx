@@ -34,8 +34,8 @@ const slider_data = [
   {
     id: 1,
     bg_img: "/assets/img/hero/hero-2_.jpg",
-    sub_title_1: "best",
-    sub_title_2: "it solutions",
+    sub_title_1: "We teach",
+    sub_title_2: "Linux",
     hero_title_1: "Inspiring Inovations,",
     hero_title_2: "Delivering",
     hero_support: "Simplicity",
@@ -43,8 +43,8 @@ const slider_data = [
   {
     id: 2,
     bg_img: "/assets/img/hero/hero-12.jpg",
-    sub_title_1: "best",
-    sub_title_2: "it solutions",
+    sub_title_1: "We teach",
+    sub_title_2: "DevOps",
     hero_title_1: "Inspiring Inovations,",
     hero_title_2: "Delivering",
     hero_support: "Simplicity",
@@ -52,8 +52,8 @@ const slider_data = [
   {
     id: 3,
     bg_img: "/assets/img/hero/hero-3_.jpg",
-    sub_title_1: "best",
-    sub_title_2: "it solutions",
+    sub_title_1: "We teach",
+    sub_title_2: "Web Development",
     hero_title_1: "Inspiring Inovations,",
     hero_title_2: "Delivering",
     hero_support: "Simplicity",

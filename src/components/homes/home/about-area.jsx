@@ -5,18 +5,18 @@ import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import AngleArrow from "@/src/svg/angle-arrow";
 
-import about_img_1 from "@assets/img/about/icon-1.png";
+import about_img_1 from "@assets/img/about/icon-1_.png";
 import about_img_2 from "@assets/img/about/icon-2.png";
-import about_img_3 from "@assets/img/about/icon-3.png";
+import about_img_3 from "@assets/img/about/icon-3_.png";
 import LineArrowTwo from "@/src/svg/line-arrow-2";
 import shape_1 from "@assets/img/about/shape-1.png";
-import about from "@assets/img/about/about-1.png";
+import about from "@assets/img/about/about-1_.png";
 
 const about_data = [
   {
     id: 1,
     img: about_img_1,
-    title: "IT Consultation",
+    title: "Linux, Devops Tution",
     description: (
       <>
         As far as we might be concerned <br /> making an extraordinary advanc
@@ -27,7 +27,7 @@ const about_data = [
   {
     id: 2,
     img: about_img_2,
-    title: "Linux, Devops Tution",
+    title: "IT Consultation",
     description: (
       <>
         As far as we might be concerned <br /> making an extraordinary advanc
@@ -49,7 +49,7 @@ const about_data = [
   {
     id: 1,
     img: about_img_1,
-    title: "IT Consultation",
+    title: "Linux, Devops Tution",
     description: (
       <>
         As far as we might be concerned <br /> making an extraordinary advanc
@@ -60,7 +60,7 @@ const about_data = [
   {
     id: 2,
     img: about_img_2,
-    title: "Linux, Devops Tution",
+    title: "IT Consultation",
     description: (
       <>
         As far as we might be concerned <br /> making an extraordinary advanc
@@ -135,7 +135,7 @@ const AboutArea = () => {
           <div className="row">
             <div className="col-xl-4 col-lg-12">
               <div className="tp-about-wrapper-thumb text-center text-xl-start fadeLeft">
-                <Image src={about} alt="theme-pure" />
+                {/* <Image src={about} alt="theme-pure" /> */}
               </div>
             </div>
             <div className="col-xl-8 col-lg-10">
@@ -143,12 +143,12 @@ const AboutArea = () => {
                 <div className="row">
                   <div className="col-lg-8">
                     <div className="tp-about-title-wrapper p-relative">
-                      <span className="tp-section-title__pre">
+                      {/*  <span className="tp-section-title__pre">
                         best <span className="title-pre-color">it service</span>
                         <AngleArrow />
-                      </span>
+                      </span> */}
                       <h3 className="tp-section-title">
-                        IT Industries We’re Offering
+                        Industries We’re Offering
                         <span className="title-left-shape">
                           <LineArrowTwo />
                         </span>
@@ -196,8 +196,7 @@ const AboutArea = () => {
                     <a href="tel:01310-069824">
                       <p>
                         <i className="fa-solid fa-phone"></i>
-                        Provide IT services to hundreds customers{" "}
-                        <span>+1 614-344-8413</span>
+                        Talk to us now <span>+1 614-344-8413</span>
                       </p>
                     </a>
                   </div>
