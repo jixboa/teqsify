@@ -16,19 +16,19 @@ const HomeTwo = () => {
   return (
     <>
       <HeaderTwo />
-        <main>
-          <HeroArea />
-          <OfferArea />
-          <BusinessArea />
-          <CounterArea />
-          <IndustryArea />
-          <FeatureArea />
-          <BrandArea />
-          <BlogArea />
-          <TestimonialArea />
-          <CtaArea />
-        </main>
-        <FooterTwo />
+      <main>
+        <HeroArea />
+        <OfferArea />
+        <BusinessArea />
+        <CounterArea />
+        <IndustryArea />
+        <FeatureArea />
+        <BrandArea />
+        {/* <BlogArea />
+          <TestimonialArea /> */}
+        <CtaArea />
+      </main>
+      <FooterTwo />
     </>
   );
 };

@@ -80,8 +80,9 @@ const service_data = [
     img: service_img_2,
     description: (
       <>
-        As far as we might be concerned making an extraordinary As the
-        complexity as{" "}
+        Embark on a journey of digital creativity with Teqsify's specialized Web
+        Development Tuition. Whether you're a novice or looking to enhance your
+        skills, our expert-led courses cover the latest in web technologies. "{" "}
       </>
     ),
   },

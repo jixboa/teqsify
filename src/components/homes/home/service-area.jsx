@@ -222,9 +222,9 @@ const ServiceArea = () => {
                       </span>
                     </h3>
                     <p>
-                      Our company provides a full range of services for the
-                      construction of <br /> private houses and cottages since
-                      19
+                      Teqsify's commitment to excellence is reflected in our
+                      unique approach to IT education and services. Specializing
+                      in Linux & DevOps Tuition
                     </p>
                     <ul>
                       <li>

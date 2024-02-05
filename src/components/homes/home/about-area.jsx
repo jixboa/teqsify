@@ -19,8 +19,8 @@ const about_data = [
     title: "Linux, Devops Tution",
     description: (
       <>
-        As far as we might be concerned <br /> making an extraordinary advanc
-        <br /> ed experience is a blend bet
+        Dive into the world of Linux and DevOps <br />
+        with our specialized tuition programs. <br />
       </>
     ),
   },
@@ -30,8 +30,9 @@ const about_data = [
     title: "IT Consultation",
     description: (
       <>
-        As far as we might be concerned <br /> making an extraordinary advanc
-        <br /> ed experience is a blend bet
+        We analyze your specific needs, providing expert <br />
+        insights and crafting tailored solutions to <br />
+        enhance your IT infrastructure and overall performance.
       </>
     ),
   },
@@ -41,8 +42,9 @@ const about_data = [
     title: "Web Development",
     description: (
       <>
-        As far as we might be concerned <br /> making an extraordinary advanc
-        <br /> ed experience is a blend bet
+        Our team crafts dynamic and user-centric websites
+        <br /> that not only showcase your brand but <br />
+        also provide seamless and engaging user experiences.
       </>
     ),
   },
@@ -52,8 +54,10 @@ const about_data = [
     title: "Linux, Devops Tution",
     description: (
       <>
-        As far as we might be concerned <br /> making an extraordinary advanc
-        <br /> ed experience is a blend bet
+        Teqsify's Cloud Engineering services leverage <br />
+        the power of cloud technology to optimize
+        <br />
+        your business operations.
       </>
     ),
   },
