@@ -18,7 +18,7 @@ const offering_data = [
     img: offering_img_1,
     title: (
       <>
-        Linux & <br /> Tution
+        Linux <br /> Tution
       </>
     ),
   },
