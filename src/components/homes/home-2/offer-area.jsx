@@ -7,10 +7,10 @@ import LineArrowTwo from "@/src/svg/line-arrow-2";
 import offer_shape_1 from "@assets/img/offering/shape.png";
 import offer_shape_2 from "@assets/img/offering/shape-2.png";
 
-import offering_img_1 from "@assets/img/offering/img-1.svg";
-import offering_img_2 from "@assets/img/offering/img-2.svg";
-import offering_img_3 from "@assets/img/offering/img-3.svg";
-import offering_img_4 from "@assets/img/offering/img-4.svg";
+import offering_img_1 from "@assets/img/offering/linux1.svg";
+import offering_img_2 from "@assets/img/offering/devop.svg";
+import offering_img_3 from "@assets/img/offering/consultation.svg";
+import offering_img_4 from "@assets/img/offering/web.svg";
 
 const offering_data = [
   {
