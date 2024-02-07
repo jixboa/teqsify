@@ -1,36 +1,36 @@
-import HeaderOne from "@/src/layout/headers/header";
+import HeaderTwo from "@/src/layout/headers/header-2";
 import React from "react";
-import HeroSlider from "./hero-slider";
-import AboutArea from "./about-area";
+import HeroArea from "./hero-area";
+import OfferArea from "./offer-area";
+import BusinessArea from "./business-area";
+import CounterArea from "./counter-area";
+import IndustryArea from "../../../common/industry-area";
 import FeatureArea from "./feature-area";
-import ServiceArea from "./service-area";
 import BrandArea from "./brand-area";
-import SupportArea from "./support-area";
-import TestimonialArea from "./testimonial-area";
-import SliderArea from "./slider-area";
-import FaqArea from "./faq-area";
 import BlogArea from "./blog-area";
-import Footer from "@/src/layout/footers/footer";
+import TestimonialArea from "./testimonial-area";
+import CtaArea from "./cta-area";
+import FooterTwo from "@/src/layout/footers/footer-2";
 
-const HomeOne = () => {
+const HomeTwo = () => {
   return (
     <>
-      <HeaderOne />
+      <HeaderTwo />
       <main>
-        <HeroSlider />
-        <AboutArea />
-        {/*   <FeatureArea /> */}
-        <ServiceArea />
+        <HeroArea />
+        <OfferArea />
+        <BusinessArea />
+        <CounterArea />
+        <IndustryArea />
+        <FeatureArea />
         <BrandArea />
-        <SupportArea />
-        <TestimonialArea />
-        <SliderArea />
-        <FaqArea />
-        <BlogArea />
-        <Footer />
+        {/* <BlogArea />
+          <TestimonialArea /> */}
+        <CtaArea />
       </main>
+      <FooterTwo />
     </>
   );
 };
 
-export default HomeOne;
+export default HomeTwo;

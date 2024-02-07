@@ -51,8 +51,8 @@ const IndustryArea = ({ service }) => {
               <div className="tp-industry-wrapper mb-30 fadeLeft">
                 <div className="tp-industry-content">
                   <h3 className="tp-industry-content-title">
-                    Best IT & Technology Comapany For Your <br /> IT Profession
-                    & Business
+                    Best IT & Technology Company For Your <br /> IT Profession &
+                    Business
                   </h3>
                   <div className="tp-industry-thumb-wrapper d-flex">
                     <div className="tp-industry-thumb text-center">

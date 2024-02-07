@@ -22,7 +22,7 @@ const footer_two_content = {
   about_us: (
     <>
       Teqsify is an innovative tech hub that delivers simplicity <br /> and
-      inspires innovations. Specializing{" "}
+      inspires innovations.
     </>
   ),
   address: "Worldwide Online Services",
