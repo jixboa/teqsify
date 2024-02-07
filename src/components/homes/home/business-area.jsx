@@ -5,9 +5,9 @@ import business_shape_1 from "@assets/img/business/shape-1.png";
 import business_shape_2 from "@assets/img/business/shape-2.png";
 import business_shape_3 from "@assets/img/business/shape-3.png";
 import business_shape_4 from "@assets/img/business/shape-4.png";
-import business_img_1 from "@assets/img/business/img-1.jpg";
-import business_img_2 from "@assets/img/business/img-2.png";
-import business_img_3 from "@assets/img/business/img-3.png";
+import business_img_1 from "@assets/img/business/img-1_.jpg";
+import business_img_2 from "@assets/img/business/img-2_.png";
+import business_img_3 from "@assets/img/business/img-3_.png";
 import business_user from "@assets/img/business/user.png";
 
 import AngleArrow from "@/src/svg/angle-arrow";
