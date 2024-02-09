@@ -21,7 +21,7 @@ const Breadcrumb = ({
               <div className="breadcrumb__content text-center">
                 <h3 className="breadcrumb__title">
                   {top_title}
-                  <Image src={breadcrumb_img} alt="theme-pure" />
+                  <Image src={breadcrumb_img} alt="teqsify-Consult" />
                 </h3>
                 <div className="breadcrumb__list breadcrumb__list-translate">
                   <span>
