@@ -36,7 +36,7 @@ const ServiceContactForm = () => {
         } else {
           // Handle error
           Swal.fire({
-            icon: "eror",
+            icon: "error",
             title: "Failed",
             text: "Please refresh page and try again",
             timer: 10000,
