@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import Swal from "sweetalert2";
 
 const ServiceContactForm = () => {
   const handleSubmit = async (e) => {
@@ -12,8 +12,6 @@ const ServiceContactForm = () => {
       formObject[key] = value;
     });
 
-    //console.log(formObject);
-
     // Make a POST request to the API route
     const response = await fetch("/api/contact", {
       method: "POST",
@@ -21,15 +19,35 @@ const ServiceContactForm = () => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(formObject),
-    });
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        if (data.ok) {
+          // Handle success
+          Swal.fire({
+            icon: "success",
+            title: "Message Sent",
+            text: data.message,
+            timer: 10000,
+          });
 
-    if (response.ok) {
-      // Handle success
-      console.log("Form submitted successfully!");
-    } else {
-      // Handle error
-      console.error("Form submission failed!");
-    }
+          //console.log("Form submitted successfully!");
+          e.target.reset();
+        } else {
+          // Handle error
+          Swal.fire({
+            icon: "eror",
+            title: "Failed",
+            text: "Please refresh page and try again",
+            timer: 10000,
+          });
+          // console.error("Form submission failed!");
+        }
+      })
+      .catch((error) => {
+        // Handle network or other errors
+        console.error("Error:", error);
+      });
   };
 
   return (
@@ -60,7 +78,7 @@ const ServiceContactForm = () => {
           </div>
           <div className="col-md-6">
             <div className="tp-service-contact-input">
-              <input name="text" type="text" placeholder="Phone" required />
+              <input name="phone" type="text" placeholder="Phone" required />
             </div>
           </div>
           <div className="col-md-12">

@@ -1,18 +1,25 @@
+import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
+
+require("dotenv").config();
+
+const gmailPassword = process.env.GMAILPASS;
 
 export default async function handler(req, res) {
   if (req.method === "POST") {
-    const { name, lastName, email, phone, message } = req.body;
-
-    console.log(name, email);
+    const { name, lastname, email, phone, message } = req.body;
 
     /*     return { message: "Name recieved" }; */
     // Create a nodemailer transporter
     const transporter = nodemailer.createTransport({
-      service: "gmail", // e.g., 'gmail'
+      service: "gmail",
+      host: "smtp.gmail.com",
+      port: 465,
+      secure: true,
       auth: {
         user: "teqsify.it@gmail.com",
-        pass: "Linux$$1241",
+        pass: gmailPassword,
       },
     });
 
@@ -20,9 +27,9 @@ export default async function handler(req, res) {
     const mailOptions = {
       from: "gyesboa@gmail.com",
       to: "teqsify.it@gmail.com",
-      subject: "New Contact Form Submission",
+      subject: "New Applicant Form Submission",
       text: `
-        Name: ${name} ${lastName}
+        Name: ${name} ${lastname}
         Email: ${email}
         Phone: ${phone}
         Message: ${message}
@@ -32,14 +39,15 @@ export default async function handler(req, res) {
     try {
       // Send the email
       await transporter.sendMail(mailOptions);
-      console.log(mailOptions);
+
       /*  res.status(200).json({ success: true }); */
-      return NextResponse.json({
-        message: "Email sent successfully",
-        status: 200,
+      return res.status(200).json({
+        ok: true,
+        message:
+          "Thanks for Submitting Your Info, We will reach out to you with further Information.",
       });
     } catch (error) {
-      res.status(500).json({ success: false, error: error.message });
+      res.status(500).json({ success: false, message: error.message });
       console.log(error.message);
     }
   } else {
