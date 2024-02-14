@@ -16,6 +16,7 @@ const offering_data = [
   {
     id: 1,
     img: offering_img_1,
+    ref: "/linux-details",
     title: (
       <>
         Linux <br /> Tution
@@ -25,6 +26,7 @@ const offering_data = [
   {
     id: 2,
     img: offering_img_2,
+    ref: "/devops-details",
     title: (
       <>
         DevOps <br /> Tution
@@ -34,6 +36,7 @@ const offering_data = [
   {
     id: 3,
     img: offering_img_3,
+    ref: "/consultation-details",
     title: (
       <>
         IT <br /> Consultation
@@ -43,6 +46,7 @@ const offering_data = [
   {
     id: 4,
     img: offering_img_4,
+    ref: "/webdev-details",
     title: (
       <>
         Web <br /> Development
@@ -102,7 +106,7 @@ const OfferArea = () => {
                     <Image src={item.img} alt="theme-pure" />
                   </div>
                   <div className="tp-offer-wrapper-btn">
-                    <Link href="/service-details">
+                    <Link href={item.ref}>
                       Read Out More{" "}
                       <i className="fa-solid fa-arrow-up-right"></i>
                     </Link>

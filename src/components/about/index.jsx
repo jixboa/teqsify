@@ -24,12 +24,12 @@ const About = () => {
         <CounterArea about={true} />
         <FeatureArea about={true} />
         <SupportArea />
-        <VideoArea />
+        {/*  <VideoArea />
         <TestimonialFeature />
         <TestimonialArea />
-        <BrandArea />
-        <TeamArea />
-        <BlogArea />
+        <BrandArea /> */}
+        {/* <TeamArea />
+        <BlogArea /> */}
         <FooterContact />
       </main>
       <FooterTwo />

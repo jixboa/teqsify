@@ -5,15 +5,12 @@ import ServiceDetailsArea from "./service-details-area";
 import FooterContact from "@/src/layout/footers/footer-contact";
 import FooterTwo from "@/src/layout/footers/footer-2";
 
-const ServiceDetails = () => {
+const DevopsDetails = () => {
   return (
     <>
       <HeaderTwo />
       <main>
-        <Breadcrumb
-          top_title="Linux Admin Tution"
-          page_title="Linux Admin Tution"
-        />
+        <Breadcrumb top_title="Devops Tution" page_title="DevopsTution" />
         <ServiceDetailsArea />
         <FooterContact bg_style={true} />
       </main>
@@ -22,4 +19,4 @@ const ServiceDetails = () => {
   );
 };
 
-export default ServiceDetails;
+export default DevopsDetails;

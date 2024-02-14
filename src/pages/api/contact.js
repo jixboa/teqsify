@@ -37,7 +37,7 @@ export default async function handler(req, res) {
 
     try {
       // Send the email
-      await transporter.sendMail(mailOptions);
+      /*  await transporter.sendMail(mailOptions); */
 
       /*  res.status(200).json({ success: true }); */
       return res.status(200).json({
