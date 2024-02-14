@@ -129,7 +129,7 @@ const FeatureArea = ({ about }) => {
                   <AngleArrow />
                 </span>
                 <h3 className="tp-section-title">
-                  We’ve Been Thriving In{" "}
+                  We’ve Been Thriving For{" "}
                   <span className="title-color">10 Years</span>
                   <span className="title-right-shape">
                     <LineArrowFive />
@@ -180,11 +180,11 @@ const FeatureArea = ({ about }) => {
                       </div>
                     </div>
                   </div>
-                  <div className="tp-feature-item-btn">
+                  {/* <div className="tp-feature-item-btn">
                     <Link href="/about">
                       <i className="fa-regular fa-arrow-right"></i>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             ))}

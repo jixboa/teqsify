@@ -72,9 +72,9 @@ const ServiceDetailsArea = () => {
       <section className="tp-service-details-area pt-120 pb-120">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4">
+            {/* <div className="col-lg-4">
               <div className="tp-service-widget">
-                {/*  <div className="tp-service-widget-item mb-40">
+                <div className="tp-service-widget-item mb-40">
                   <div className="tp-service-widget-tab">
                     <ul>
                       {service_details_tab.map((item, i) => (
@@ -87,7 +87,7 @@ const ServiceDetailsArea = () => {
                       ))}
                     </ul>
                   </div>
-                </div> */}
+                </div>
 
                 <div className="tp-service-widget-item mb-40">
                   <div className="tp-service-contact">
@@ -98,12 +98,12 @@ const ServiceDetailsArea = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-8">
+            </div> */}
+            <div className="col-lg-12">
               <div className="tp-service-details-wrapper">
-                <div className="tp-service-details-thumb">
+                {/* <div className="tp-service-details-thumb">
                   <Image src={service_details_thumb} alt="teqsify" />
-                </div>
+                </div> */}
                 <h3 className="tp-service-details-title">{title}</h3>
                 <p>{description}</p>
                 <div className="row">
