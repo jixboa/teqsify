@@ -69,7 +69,7 @@ const FeatureArea = () => {
                 {feature_slide_data.map((item, i) => (
                   <SplideSlide key={i}>
                     <div className="tp-feature-thumb-2 w-img p-relative">
-                      <Link href="/portfolio-details">
+                      <Link href="#">
                         <Image src={item.img} alt="theme-pure" />
                       </Link>
                       <div className="tp-feature-2-info d-flex align-items-center p-relative">
@@ -78,11 +78,11 @@ const FeatureArea = () => {
                             {item.subtitle}
                           </span>
                           <h4 className="tp-feature-2-title">
-                            <Link href="/portfolio-details">{item.title}</Link>
+                            <Link href="#">{item.title}</Link>
                           </h4>
                         </div>
                         <div className="tp-feature-2-btn">
-                          <Link href="/portfolio-details">
+                          <Link href="#">
                             <i className="fa-regular fa-arrow-up-right"></i>
                           </Link>
                         </div>

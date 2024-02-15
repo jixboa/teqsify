@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import LineArrowFour from "@/src/svg/line-arrow-4";
 import shape_1 from "@assets/img/hero/hero-2/linux.png";
 import shape_2 from "@assets/img/hero/hero-2/ansible.png";
-import shape_3 from "@assets/img/hero/hero-2/docker.png";
+import shape_3 from "@assets/img/hero/hero-2/devops.png";
 
 const setting = {
   slidesPerView: 1,
@@ -52,12 +52,12 @@ const HeroArea = () => {
                   />
                   <Image
                     className="shape-2 d-none d-lg-block"
-                    src={shape_2}
+                    src={shape_3}
                     alt="theme-pure"
                   />
                   <Image
                     className="shape-3 d-none d-lg-block"
-                    src={shape_3}
+                    src={shape_2}
                     alt="theme-pure"
                   />
                 </div>

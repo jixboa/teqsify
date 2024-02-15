@@ -16,7 +16,7 @@ import about_shape_3 from "@assets/img/about/home-3/shape-3.png";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
-import about_img from "@assets/img/about/about-1.png";
+import about_img from "@assets/img/about/about-1_.png";
 import about_img_10 from "@assets/img/business/shape-5.png";
 
 const AboutArea = ({ about }) => {
@@ -101,10 +101,13 @@ const AboutArea = ({ about }) => {
                   </h3>
                 </div>
                 <p className="text">
-                  Teqsify is an innovative tech hub that delivers simplicity and
-                  inspires innovations. <br /> Specializing in online Linux &
-                  DevOps tuition, our flagship course simplifies complex tech
-                  concepts while fostering creativity and problem-solving.
+                  Teqsify is a pioneering technology hub that empowers
+                  individuals and businesses to embrace the power of technology
+                  through its simplified solutions and unwavering commitment to
+                  fostering innovation.
+                  <br /> Specializing in online Linux & DevOps tuition, our
+                  flagship course simplifies complex tech concepts while
+                  fostering creativity and problem-solving.
                   <br />
                   As IT consultants, we provide tailored solutions that simplify
                   the digital landscape for businesses.
@@ -146,7 +149,7 @@ const AboutArea = ({ about }) => {
                     </div>
                   </div>
                 </div>
-                <div className="tp-about-3-btn-inner d-flex flex-wrap">
+                {/* <div className="tp-about-3-btn-inner d-flex flex-wrap">
                   <div className="tp-about-btn ">
                     <Link className="tp-btn" href="/about">
                       Our History
@@ -160,7 +163,7 @@ const AboutArea = ({ about }) => {
                       <span>CEO, since 2015</span>
                     </p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

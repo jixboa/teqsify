@@ -16,14 +16,17 @@ const support_contact = {
   sub_title_2: " to success in the realm of IT",
   info: (
     <>
-      Our company provides a full range of services for the <br /> construction
-      of private houses and cottages since 19
+      Seek Our Service, the tech hub where simplicity unlocks innovation.
+      Explore solutions, ignite your ideas, and be part of the future
     </>
   ),
   lists: [
-    <>series of manual and semi-manual activities.</>,
-    <>Construction is different from other industries.</>,
-    <>Construction is different from other industries.</>,
+    <>Our consultations inspire innovative strategies for long-term success.</>,
+    <>Unlock the complexities of Linux and DevOps with our online course</>,
+    <>
+      Teqsify's web development services and tuition deliver simplicity in
+      creating dynamic, user-centric websites.{" "}
+    </>,
   ],
 };
 const { sub_title_1, sub_title_2, info, lists } = support_contact;
@@ -63,7 +66,7 @@ const SupportArea = () => {
                   ))}
                 </ul>
                 <div className="tp-support-breadcrumb-btn mb-30">
-                  <Link className="tp-btn" href="/service-details">
+                  <Link className="tp-btn" href="/service">
                     Tell us How Can We Help
                   </Link>
                 </div>
@@ -77,7 +80,7 @@ const SupportArea = () => {
                   src={support_img_2}
                   alt="theme-pure"
                 />
-                <div className="shape-2 p-relative">
+                {/* <div className="shape-2 p-relative">
                   <Image src={support_img_3} alt="theme-pure" />
                   <div className="tp-video-play">
                     <a
@@ -86,7 +89,7 @@ const SupportArea = () => {
                       <i className="fa-sharp fa-solid fa-play"></i>
                     </a>
                   </div>
-                </div>
+                </div> */}
                 <Image
                   className="shape-3"
                   src={support_shape}
@@ -99,11 +102,11 @@ const SupportArea = () => {
       </section>
 
       {/* video modal start */}
-      <VideoPopup
+      {/* <VideoPopup
         isVideoOpen={isVideoOpen}
         setIsVideoOpen={setIsVideoOpen}
         videoId={"dGcsHMXbSOA"}
-      />
+      /> */}
       {/* video modal end */}
     </>
   );

@@ -4,12 +4,12 @@ import ImagePopup from "./ImagePopup";
 import React, { useState } from "react";
 
 import Logo from "@assets/img/logo/logo.png";
-import sidebar_img_1 from "@assets/img/portfolio/img-1.jpg";
+import sidebar_img_1 from "@assets/img/portfolio/img-1_.jpg";
 import sidebar_img_2 from "@assets/img/portfolio/img-2.jpg";
-import sidebar_img_3 from "@assets/img/portfolio/img-3.jpg";
-import sidebar_img_4 from "@assets/img/portfolio/img-4.jpg";
-import sidebar_img_5 from "@assets/img/portfolio/img-5.jpg";
-import sidebar_img_6 from "@assets/img/portfolio/img-6.jpg";
+import sidebar_img_3 from "@assets/img/portfolio/img-3_.jpg";
+import sidebar_img_4 from "@assets/img/portfolio/img-4_.jpg";
+import sidebar_img_5 from "@assets/img/portfolio/img-5_.jpg";
+import sidebar_img_6 from "@assets/img/portfolio/img-6_.jpg";
 import MobileMenus from "../layout/headers/mobile-menus";
 const images = [
   { id: 1, img: sidebar_img_1 },
@@ -81,8 +81,10 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen, home_three }) => {
             </div>
             <div className="offcanvas__popup">
               <p>
-                Web designing in a powerful way of just not an only professions.
-                We have tendency to believe the idea that smart looking .
+                At Teqsify, we bridge the gap between complex tech and
+                user-friendly solutions. We spark innovation by inspiring both
+                individuals and businesses to explore the endless possibilities
+                of technology.
               </p>
               <div className="offcanvas__popup-gallery">
                 <h4 className="offcanvas__title">Gallery</h4>
@@ -100,22 +102,22 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen, home_three }) => {
             <div className="offcanvas__contact">
               <h4 className="offcanvas__title">Contacts</h4>
               <div className="offcanvas__contact-content d-flex">
-                <div className="offcanvas__contact-content-icon">
+                {/*  <div className="offcanvas__contact-content-icon">
                   <i className="fa-sharp fa-solid fa-location-dot"></i>
-                </div>
-                <div className="offcanvas__contact-content-content">
+                </div> */}
+                {/*   <div className="offcanvas__contact-content-content">
                   <a href="https://www.google.com/maps/search/86+Road+Broklyn+Street,+600+New+York,+USA/@40.6897806,-74.0278086,12z/data=!3m1!4b1">
                     86 Road Broklyn Street, 600{" "}
                   </a>
-                </div>
+                </div> */}
               </div>
               <div className="offcanvas__contact-content d-flex">
                 <div className="offcanvas__contact-content-icon">
                   <i className="fa-solid fa-envelope"></i>
                 </div>
                 <div className="offcanvas__contact-content-content">
-                  <a href="mailto:needhelp@company.com">
-                    Needhelp@company.com{" "}
+                  <a href="mailto:teqsify.it@gmail.com">
+                    teqsify.it@gmail.com{" "}
                   </a>
                 </div>
               </div>
@@ -124,7 +126,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen, home_three }) => {
                   <i className="fa-solid fa-phone"></i>
                 </div>
                 <div className="offcanvas__contact-content-content">
-                  <a href="tel:01310-069824"> +92 666 888 0000</a>
+                  <a href="tel:+16143448413"> +1 614 344 8413</a>
                 </div>
               </div>
             </div>

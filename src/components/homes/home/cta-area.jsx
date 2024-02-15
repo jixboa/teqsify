@@ -52,7 +52,7 @@ const CtaArea = () => {
                 </h3>
                 <div className="tp-cta-2-btn">
                   <Link className="tp-btn" href="/contact">
-                    Get a Quote
+                    Get in Touch
                   </Link>
                 </div>
               </div>
