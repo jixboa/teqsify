@@ -20,26 +20,29 @@ const service_details_content = {
   title: <>DevOps Tution</>,
   description: (
     <>
-      Dive into the world of Linux and DevOps with our specialized tuition
-      programs. Whether you're a beginner or seeking advanced skills, our
-      hands-on training empowers you to master command-line finesse, system
-      optimization, and the latest in DevOps practices. Teqsify's tuition
-      ensures you're well-equipped to navigate the dynamic landscape of IT
-      operations.
+      Are you ready to take your IT career to the next level? In today's rapidly
+      evolving tech landscape, DevOps skills are more in demand than ever.
+      Whether you're a developer, sysadmin, or operations professional,
+      mastering DevOps principles and tools can open doors to exciting new
+      opportunities and high-paying jobs. <br /> Our DevOps tuition program is
+      designed to equip you with the comprehensive knowledge and practical
+      skills needed to thrive in this dynamic field. Our expert instructors will
+      guide you through every step of the learning process, from understanding
+      core concepts to implementing them in real-world scenarios.
     </>
   ),
-  title_2: <>Why become a Linux Administrator ?</>,
+  title_2: <>Don't Get Left Behind: The Future of IT is DevOps</>,
   description_2: (
     <>
-      Uncover why learning Linux is a pivotal step toward mastering a
-      foundational skill, opening doors to diverse career opportunities and the
-      dynamic world of IT innovation.{" "}
+      Don't wait! Invest in your future and enroll in our DevOps tuition program
+      today. We'll help you unlock your full potential and become a valuable
+      asset in any tech organization..{" "}
     </>
   ),
   feture_list: [
-    <>Industry Demand and Career Growth</>,
-    <>Remote Work Opportunities</>,
-    <>Versatility and Transferable Skills</>,
+    <>Increased efficiency and productivity</>,
+    <>Enhanced scalability and agility</>,
+    <>Greater job security and marketability</>,
   ],
   description_3: (
     <>
