@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import VideoPopup from "@/src/modals/video-popup";
 import ServiceContactForm from "@/src/forms/service-contact-form";
 import service_details_thumb from "@assets/img/services/service-details/img-1_.jpg";
-import service_video_thumb from "@assets/img/services/service-details/img-2_.jpg";
+import service_video_thumb from "@assets/img/services/service-details/consultation_img-2_.jpg";
 import RightSymbol from "@/src/svg/right-symbol";
 import accordion from "@/src/data/accordion";
 
@@ -20,26 +20,41 @@ const service_details_content = {
   title: <>IT Consultation</>,
   description: (
     <>
-      Dive into the world of Linux and DevOps with our specialized tuition
-      programs. Whether you're a beginner or seeking advanced skills, our
-      hands-on training empowers you to master command-line finesse, system
-      optimization, and the latest in DevOps practices. Teqsify's tuition
-      ensures you're well-equipped to navigate the dynamic landscape of IT
-      operations.
+      In our IT Consultation services, we offer personalized guidance to
+      businesses navigating the complexities of the digital world. We analyze
+      your specific needs, providing expert insights and crafting tailored
+      solutions to enhance your IT infrastructure and overall performance.
+      Teqsify is your dedicated partner in achieving optimal results in the
+      ever-evolving tech landscape.
     </>
   ),
-  title_2: <>Why become a Linux Administrator ?</>,
-  description_2: (
-    <>
-      Uncover why learning Linux is a pivotal step toward mastering a
-      foundational skill, opening doors to diverse career opportunities and the
-      dynamic world of IT innovation.{" "}
-    </>
-  ),
+  title_2: <>We are your one-stop IT consultation shop, dedicated to:</>,
+  description_2: <></>,
   feture_list: [
-    <>Industry Demand and Career Growth</>,
-    <>Remote Work Opportunities</>,
-    <>Versatility and Transferable Skills</>,
+    <>
+      <strong>Understanding your unique needs:</strong>We take the time to
+      listen and assess your specific IT challenges and goals. Whether you're
+      struggling with outdated infrastructure, security vulnerabilities, or
+      inefficient processes, we identify the root causes and design customized
+      solutions.
+    </>,
+    <>
+      <strong>Providing expert guidance:</strong> Our experienced consultants
+      possess in-depth knowledge across various IT domains, from cloud computing
+      and network security to data management and software development.
+    </>,
+    <>
+      <strong>Streamlining your operations:</strong> We help you optimize your
+      IT infrastructure and processes, enhancing efficiency and productivity. We
+      also offer ongoing support and maintenance, ensuring your systems run
+      smoothly and securely.
+    </>,
+    <>
+      <strong>Delivering measurable results:</strong> We don't just recommend
+      solutions; we track their impact and provide data-driven insights to
+      measure success. You'll see tangible improvements in areas like cost
+      savings, performance, and business agility.
+    </>,
   ],
   description_3: (
     <>

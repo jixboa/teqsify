@@ -15,7 +15,7 @@ const footer_two_content = {
     { name: "IT Consultation", ref: "/consultation-details" },
     { name: "Web Development Services", ref: "/webdev-details" },
     { name: "Basic Web Development Tution", ref: "/webdev-details" },
-    { name: "Cloud Engineering", ref: "/service-details" },
+    { name: "Cloud Engineering", ref: "/service" },
   ],
   google_map:
     "https://www.google.com/maps/place/254+Lillian+Blvd,+Holbrook,+NY+11741,+USA/@40.7937446,-73.0774993,17z/data=!3m1!4b1!4m5!3m4!1s0x89e8483b469d706f:0xa6841f8aafc2ef19!8m2!3d40.7937446!4d-73.0753106",

@@ -3,10 +3,10 @@ import Image from "next/image";
 import React, { useState } from "react";
 import VideoPopup from "@/src/modals/video-popup";
 import ServiceContactForm from "@/src/forms/service-contact-form";
-import service_details_thumb from "@assets/img/services/service-details/img-1_.jpg";
-import service_video_thumb from "@assets/img/services/service-details/img-2_.jpg";
+import service_details_thumb from "@assets/img/services/service-details/webdev_img-1_.jpg";
+import service_video_thumb from "@assets/img/services/service-details/webdev_img-2__.jpg";
 import RightSymbol from "@/src/svg/right-symbol";
-import accordion from "@/src/data/accordion";
+import accordion from "@/src/data/webdev_accordion";
 
 const service_details_content = {
   service_details_tab: [
@@ -20,26 +20,34 @@ const service_details_content = {
   title: <>Web Development</>,
   description: (
     <>
-      Dive into the world of Linux and DevOps with our specialized tuition
-      programs. Whether you're a beginner or seeking advanced skills, our
-      hands-on training empowers you to master command-line finesse, system
-      optimization, and the latest in DevOps practices. Teqsify's tuition
-      ensures you're well-equipped to navigate the dynamic landscape of IT
-      operations.
+      The digital world thrives on websites. They're your online storefront,
+      your portfolio, your creative canvas, and so much more. But navigating the
+      complexities of web development can feel overwhelming. Here at Teqsify,
+      we're passionate about bridging that gap, not just by crafting beautiful
+      and functional websites, but also by empowering you with knowledge.
     </>
   ),
-  title_2: <>Why become a Linux Administrator ?</>,
+  title_2: <>Why Choose Us ?</>,
   description_2: (
     <>
-      Uncover why learning Linux is a pivotal step toward mastering a
-      foundational skill, opening doors to diverse career opportunities and the
-      dynamic world of IT innovation.{" "}
+      Tired of cookie-cutter websites and confusing jargon? We get it. At
+      Teqsify, we offer more than just web design - we empower you. Here's what
+      sets us apart:{" "}
     </>
   ),
   feture_list: [
-    <>Industry Demand and Career Growth</>,
-    <>Remote Work Opportunities</>,
-    <>Versatility and Transferable Skills</>,
+    <>
+      <strong> We collaborate, not dictate:</strong> Your vision meets our
+      expertise, creating a website that truly reflects your brand.
+    </>,
+    <>
+      <strong>Results matter:</strong> We go beyond aesthetics, focusing on
+      solutions that drive traffic, conversions, and success.
+    </>,
+    <>
+      <strong>Beyond design:</strong> From development courses to ongoing
+      support, we equip you with the tools and knowledge to thrive online.
+    </>,
   ],
   description_3: (
     <>

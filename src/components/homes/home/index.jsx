@@ -11,6 +11,7 @@ import BlogArea from "./blog-area";
 import TestimonialArea from "./testimonial-area";
 import CtaArea from "./cta-area";
 import FooterTwo from "@/src/layout/footers/footer-2";
+import AboutArea from "../home-3/about-area";
 
 const HomeTwo = () => {
   return (
@@ -18,6 +19,7 @@ const HomeTwo = () => {
       <HeaderTwo />
       <main>
         <HeroArea />
+        <AboutArea />
         <OfferArea />
         <BusinessArea />
         <CounterArea />

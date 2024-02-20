@@ -37,55 +37,18 @@ const AboutArea = ({ about }) => {
             <Image src={about_img_10} alt="theme-pure" />
           </div>
         ) : (
-          <div className="shape-bg">
+          /**  <div className="shape-bg">
             <Image src={about_img_1} alt="theme-pure" />
-          </div>
+          </div> */
+          <></>
         )}
         <div className="container">
           <div className="row">
-            {about ? (
-              <div className="col-lg-6">
-                <div className="tp-about-breadcrumb-img p-relative text-center fadeLeft">
-                  <Image src={about_img} alt="theme-pure" />
-                </div>
+            <div className="col-lg-6">
+              <div className="tp-about-breadcrumb-img p-relative text-center fadeLeft">
+                <Image src={about_img} alt="theme-pure" />
               </div>
-            ) : (
-              <div className="col-lg-6">
-                <div className="tp-about-3-img p-relative fadeLeft">
-                  <Image src={about_img_2} alt="theme-pure" />
-                  <Image
-                    className="shape-1"
-                    src={about_img_3}
-                    alt="theme-pure"
-                  />
-                  <div className="shape-2 p-relative">
-                    <Image src={about_img_4} alt="theme-pure" />
-                    <div className="tp-video-play">
-                      <a
-                        className="popup-video"
-                        onClick={() => setIsVideoOpen(true)}>
-                        <i className="fa-sharp fa-solid fa-play"></i>
-                      </a>
-                    </div>
-                  </div>
-                  <Image
-                    className="shape-3"
-                    src={about_shape_1}
-                    alt="theme-pure"
-                  />
-                  <Image
-                    className="shape-4"
-                    src={about_shape_2}
-                    alt="theme-pure"
-                  />
-                  <Image
-                    className="shape-5"
-                    src={about_shape_3}
-                    alt="theme-pure"
-                  />
-                </div>
-              </div>
-            )}
+            </div>
 
             <div className="col-lg-6">
               <div className="tp-about-3-wrapper">
@@ -105,18 +68,19 @@ const AboutArea = ({ about }) => {
                   individuals and businesses to embrace the power of technology
                   through its simplified solutions and unwavering commitment to
                   fostering innovation.
-                  <br /> Specializing in online Linux & DevOps tuition, our
-                  flagship course simplifies complex tech concepts while
-                  fostering creativity and problem-solving.
+                  <br /> Specializing in online{" "}
+                  <strong>Linux & DevOps tuition</strong>, our flagship course
+                  simplifies complex tech concepts while fostering creativity
+                  and problem-solving.
                   <br />
-                  As IT consultants, we provide tailored solutions that simplify
-                  the digital landscape for businesses.
+                  As <strong>IT consultants</strong>, we provide tailored
+                  solutions that simplify the digital landscape for businesses.
                   <br />
-                  In web development, we craft dynamic, user-centric websites,
-                  offering both services and tuition to simplify and inspire in
-                  the world of coding. <br />. Teqsify goes beyond services,
-                  assisting individuals in structuring resumes and guiding them
-                  towards landing remote jobs.
+                  In <strong>web development</strong>, we craft dynamic,
+                  user-centric websites, offering both services and tuition to
+                  simplify and inspire in the world of coding. <br />. Teqsify
+                  goes beyond services, assisting individuals in structuring
+                  resumes and guiding them towards landing remote jobs.
                 </p>
                 <div className="tp-about-progressbar-inner d-flex flex-wrap pt-20">
                   <div className="tp-about-3-progressbar d-flex align-items-center">
