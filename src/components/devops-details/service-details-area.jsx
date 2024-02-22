@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import VideoPopup from "@/src/modals/video-popup";
 import ServiceContactForm from "@/src/forms/service-contact-form";
 import service_details_thumb from "@assets/img/services/service-details/devops_img_1.jpg";
-import service_video_thumb from "@assets/img/services/service-details/img-2_.jpg";
+import service_video_thumb from "@assets/img/services/service-details/devops_img_2.jpg";
 import RightSymbol from "@/src/svg/right-symbol";
 import accordion from "@/src/data/accordion";
 
@@ -142,7 +142,7 @@ const ServiceDetailsArea = () => {
                 </div>
                 <p>{description_3}</p>
 
-                <div className="tp-service-details-faq faq-style-1">
+                {/*  <div className="tp-service-details-faq faq-style-1">
                   <div className="tp-faq-tab-content tp-accordion">
                     <div className="accordion" id="general_accordion">
                       {accordion.map((item, i) => (
@@ -180,7 +180,7 @@ const ServiceDetailsArea = () => {
                       ))}
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

@@ -154,7 +154,7 @@ const ServiceDetailsArea = () => {
                 </div>
                 <p>{description_3}</p>
 
-                <div className="tp-service-details-faq faq-style-1">
+                {/* <div className="tp-service-details-faq faq-style-1">
                   <div className="tp-faq-tab-content tp-accordion">
                     <div className="accordion" id="general_accordion">
                       {accordion.map((item, i) => (
@@ -192,7 +192,7 @@ const ServiceDetailsArea = () => {
                       ))}
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
