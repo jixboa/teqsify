@@ -12,13 +12,13 @@ const feature_slide_data = [
     id: 1,
     img: feature_img_1,
     subtitle: "1",
-    title: "DevOps Tution",
+    title: "DevOps Tuition",
   },
   {
     id: 2,
     img: feature_img_2,
     subtitle: "2",
-    title: "Linux Tution",
+    title: "Linux Tuition",
   },
   {
     id: 3,

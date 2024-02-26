@@ -19,7 +19,7 @@ const offering_data = [
     ref: "/linux-details",
     title: (
       <>
-        Linux <br /> Tution
+        Linux <br /> Tuition
       </>
     ),
   },
@@ -29,7 +29,7 @@ const offering_data = [
     ref: "/devops-details",
     title: (
       <>
-        DevOps <br /> Tution
+        DevOps <br /> Tuition
       </>
     ),
   },

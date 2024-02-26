@@ -10,11 +10,11 @@ import footer_logo from "@assets/img/logo/footer-logo.png";
 const footer_two_content = {
   bg_img: "/assets/img/footer/footer-2-bg.png",
   footer_widget: [
-    { name: "Linux Tution", ref: "/linux-details" },
-    { name: "DevOps Tution", ref: "/devops-details" },
+    { name: "Linux Tuition", ref: "/linux-details" },
+    { name: "DevOps Tuition", ref: "/devops-details" },
     { name: "IT Consultation", ref: "/consultation-details" },
     { name: "Web Development Services", ref: "/webdev-details" },
-    { name: "Basic Web Development Tution", ref: "/webdev-details" },
+    { name: "Basic Web Development Tuition", ref: "/webdev-details" },
     { name: "Cloud Engineering", ref: "/service" },
   ],
   google_map:

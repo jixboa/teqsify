@@ -85,7 +85,7 @@ const HeroArea = () => {
                   </div>
                   <div className="tp-hero-2-message">
                     <p>
-                      <i className="fa-solid fa-comments"></i> Online Tution &
+                      <i className="fa-solid fa-comments"></i> Online Tuition &
                       Services{" "}
                     </p>
                   </div>
