@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.teqsify.com
+
+# Sitemaps
+Sitemap: https://www.teqsify.com/sitemap.xml

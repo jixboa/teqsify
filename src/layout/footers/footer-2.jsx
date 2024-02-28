@@ -32,8 +32,8 @@ const footer_two_content = {
     { title: "Home", link: "/home-2" },
     { title: "About Us", link: "/" },
     { title: "services", link: "/service" },
-    { title: "Resources", link: "#" },
-    { title: "Courses", link: "#" },
+    /*  { title: "Resources", link: "#" },
+    { title: "Courses", link: "#" }, */
     { title: "contact", link: "/contact" },
   ],
   mobile: "+1 614 344 8413",
