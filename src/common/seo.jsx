@@ -7,9 +7,9 @@ const SEO = ({ pageTitle }) => (
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta
         name="description"
-        content="Empowering Tech Enthusiasts with Expert IT Consultation and Tuition"
+        content="Empowering Tech Enthusiasts with Expert IT Consultation and Tuition, Linux and Devops Tuition"
       />
-      <meta name="robots" content="noindex, follow" />
+      <meta name="robots" content="index, follow" />
       <meta
         name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
