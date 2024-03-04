@@ -17,7 +17,7 @@ const ContactArea = () => {
                   </h3>
                   <p>
                     Email, call, or complete the form to find out how Teqsify
-                    can <br />
+                    can assist with your <br />
                     Tech needs
                   </p>
                 </div>
