@@ -33,7 +33,7 @@ const FooterContact = ({ bg_style, contact_style }) => {
                 <div className="tp-cta-4-mail d-flex flex-wrap justify-content-center justify-content-xl-start align-items-center">
                   <Image src={conversation} alt="theme-pure" />
                   <a href="mailto:@themepure.gmail.com">
-                    Send us a mail : <span>teqsif.it@gmail.com</span>
+                    Send us a mail : <span>teqsify.it@gmail.com</span>
                   </a>
                 </div>
               </div>
