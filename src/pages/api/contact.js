@@ -17,7 +17,7 @@ export default async function handler(req, res) {
       port: 465,
       secure: true,
       auth: {
-        user: "teqsify.it@gmail.com",
+        user: "",
         pass: "xcaf pmry lmqr cuip",
       },
     });
