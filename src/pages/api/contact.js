@@ -1,15 +1,25 @@
 import nodemailer from "nodemailer";
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
-
-require("dotenv").config();
-
-const gmailPassword = process.env.GMAILPASS;
+import dotenv from "dotenv";
+dotenv.config();
 
 export default async function handler(req, res) {
   if (req.method === "POST") {
     const { name, lastname, email, phone, message } = req.body;
 
-    /*     return { message: "Name recieved" }; */
+    // Input validation
+    if (!email ) {
+      return res.status(400).json({ success: false, message: "Invalid input" });
+    }
+
+    // Check environment variables
+    if (!process.env.GMAIL_USER || !process.env.GMAIL_PASS) {
+      console.error("Missing environment variables for Gmail credentials");
+      return res.status(500).json({
+        success: false,
+        message: "Server configuration error. Please try again later.",
+      });
+    }
+
     // Create a nodemailer transporter
     const transporter = nodemailer.createTransport({
       service: "gmail",
@@ -17,15 +27,25 @@ export default async function handler(req, res) {
       port: 465,
       secure: true,
       auth: {
-        user: "",
-        pass: "xcaf pmry lmqr cuip",
+        user: process.env.GMAIL_USER,
+        pass: process.env.GMAIL_PASS,
       },
+    });
+
+    // Verify transporter
+    transporter.verify((error, success) => {
+      if (error) {
+        console.error("Transporter verification failed:", error);
+      } else {
+        console.log("Transporter is ready to send emails");
+      }
     });
 
     // Compose email options
     const mailOptions = {
-      from: "gyesboa@gmail.com",
-      to: "teqsify.it@gmail.com",
+      from: process.env.GMAIL_USER,
+      replyTo: email,
+      to: process.env.GMAIL_USER,
       subject: "New Applicant Form Submission",
       text: `
         Name: ${name} ${lastname}
@@ -38,18 +58,19 @@ export default async function handler(req, res) {
     try {
       // Send the email
       await transporter.sendMail(mailOptions);
-
-      /*  res.status(200).json({ success: true }); */
       return res.status(200).json({
-        ok: true,
+        success: true,
         message:
           "Thanks for Submitting Your Info, We will reach out to you with further Information.",
       });
     } catch (error) {
-      res.status(500).json({ success: false, message: error.message });
-      console.log(error.message);
+      console.error("Error sending email:", error);
+      return res.status(500).json({
+        success: false,
+        message: "Failed to send email. Please try again later.",
+      });
     }
   } else {
-    res.status(405).end(); // Method Not Allowed
+    res.status(405).json({ success: false, message: "Method Not Allowed" });
   }
 }

@@ -22,7 +22,7 @@ const ServiceContactForm = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        if (data.ok) {
+        if (data.success) {
           // Handle success
           Swal.fire({
             icon: "success",
@@ -31,7 +31,6 @@ const ServiceContactForm = () => {
             timer: 10000,
           });
 
-          //console.log("Form submitted successfully!");
           e.target.reset();
         } else {
           // Handle error
@@ -41,7 +40,6 @@ const ServiceContactForm = () => {
             text: "Please refresh page and try again",
             timer: 10000,
           });
-          // console.error("Form submission failed!");
         }
       })
       .catch((error) => {
